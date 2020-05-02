@@ -16,9 +16,8 @@ async function checkReleaseSafety() {
     spawn(`git commit -m '${process.env.MSG || 'update'}'`);
     spawn(`git push`);
     spawn('git status');
-    spawn(`git tag v${version}-${process.platform} && git push origin v${version}-${process.platform}`);
+    // spawn(`git tag v${version}-${process.platform} && git push origin v${version}-${process.platform}`);
     spawn(`npm --no-git-tag-version version patch`);
-    // await websiteCheck();
   } catch (error) {
     console.log(
       chalk.whiteBright.bgRed.bold(error.message)
