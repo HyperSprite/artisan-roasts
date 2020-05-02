@@ -1,0 +1,35 @@
+{
+  "name": "artisan-roasts",
+  "version": "1.0.0",
+  "description": "storing roast profiles",
+  "main": "index.js",
+  "repository": "git@github.com:HyperSprite/artisan-roasts.git",
+  "author": "Christopher Dunavan <github@hypersprite.com>",
+  "license": "UNLICENSED",
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "esmodules": true
+          }
+        }
+      ]
+    ],
+    "plugins": []
+  },
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "cross-spawn": "^7.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/register": "^7.9.0"
+  },
+  "scripts": {
+    "update": "node -r @babel/register git-tag.js",
+    "patch-bump": "npm --no-git-tag-version version patch"
+  }
+}
