@@ -15,12 +15,12 @@ color=#008000
 index=-1
 
 [events]
-EvalueColor=#a52a2a, #215fe5, #1aa39f, #3fb936
+EvalueColor=#458acf, #215fe5, #1aa39f, #ff0000
 EvalueMarker=o, s, *, D
 EvalueMarkerSize=5, 5, 5, 5
 EvalueTextColor=#ffffff, #ffffff, #ffffff, #ffffff
 Evaluealpha=0.8, 0.8, 0.8, 0.8
-Evaluelinethickness=2, 2, 2, 2
+Evaluelinethickness=3, 2, 2, 3
 
 [grid]
 gridalpha=0.2
