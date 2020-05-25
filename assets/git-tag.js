@@ -1,6 +1,6 @@
 import chalk from 'chalk';
 import spawn from './spawn';
-import { version } from './package.json';
+import { version } from '../package.json';
 
 /* run this with
   yarn update
