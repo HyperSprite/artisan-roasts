@@ -12,8 +12,8 @@ I've been working on slowing the rate of rise into second crack and this profile
 
 ## HyperSprite Dark Theme
 
-Theme [here](themes/artisan-theme-hs-dark.athm)
-Settings [here](settings/hs-artisan-settings.aset)
+- Theme [here](themes/artisan-theme-hs-dark.athm)
+- Settings [here](settings/hs-artisan-settings.aset)
 
 ![HyperSpire Dark Theme](assets/settings-pic.png)
 
