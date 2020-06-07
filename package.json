@@ -29,7 +29,7 @@
     "@babel/register": "^7.9.0"
   },
   "scripts": {
-    "update": "node -r @babel/register git-tag.js",
+    "update": "node -r @babel/register assets/git-tag.js",
     "patch-bump": "npm --no-git-tag-version version patch"
   }
 }
